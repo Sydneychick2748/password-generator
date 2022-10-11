@@ -30,7 +30,8 @@ What are the steps required to install your project? Provide a step-by-step desc
 ## Usage
 
 
-// WHEN I click the button to generate a password
+// WHEN taken to the page these will  I click the button to generate a password the promt box will show up asking for ength of the password
+// THEN I choose a length of at least 8 characters and no more than 128 characters
 
 
 // THEN I am presented with a series of prompts for password criteria
@@ -47,20 +48,47 @@ What are the steps required to install your project? Provide a step-by-step desc
 // WHEN prompted for the length of the password
 // THEN I choose a length of at least 8 characters and no more than 128 characters
 
+<img width="825" alt="Screen Shot 2022-10-10 at 8 16 48 PM" src="https://user-images.githubusercontent.com/87034052/194989186-8af20941-c631-4721-bdc2-ae71b5488b06.png">
+<img width="776" alt="Screen Shot 2022-10-10 at 8 19 38 PM" src="https://user-images.githubusercontent.com/87034052/194989530-dd94c6a9-6f8b-4f73-bdb0-efe4f70770e4.png">
+
 
 
 // WHEN asked for character types to include in the password
-// THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-// WHEN I answer each prompt
+// THEN I confirm 
+<img width="815" alt="Screen Shot 2022-10-10 at 8 20 24 PM" src="https://user-images.githubusercontent.com/87034052/194989604-142553ce-c6c7-4105-ae2f-78d3c19ff867.png">
+not to include lowercase,
 
+
+
+
+uppercase, 
+
+
+
+
+numeric,
+
+<img width="766" alt="Screen Shot 2022-10-10 at 8 21 55 PM" src="https://user-images.githubusercontent.com/87034052/194989785-23ee216d-7bb1-422b-bdec-8a02e6cb83b1.png">
+
+
+
+
+
+special characters
+
+<img width="770" alt="Screen Shot 2022-10-10 at 8 21 35 PM" src="https://user-images.githubusercontent.com/87034052/194989748-3109318c-03c4-409d-9fb9-3e243d81dc1c.png">
+
+
+
+// WHEN I answer each prompt
+<img width="649" alt="Screen Shot 2022-10-10 at 8 22 48 PM" src="https://user-images.githubusercontent.com/87034052/194989908-5f4efe8b-6f85-4845-81ba-bbbea5729d48.png">
 
 
 
 
 // THEN my input should be validated and at least one character type should be selected
-
-
-
+<img width="803" alt="Screen Shot 2022-10-10 at 8 23 34 PM" src="https://user-images.githubusercontent.com/87034052/194989993-4831ce98-5283-495c-9ff8-88cc88f57e1f.png">
+ 
 
 // WHEN all prompts are answered
 // THEN a password is generated that matches the selected criteria
@@ -68,17 +96,13 @@ What are the steps required to install your project? Provide a step-by-step desc
 // THEN the password is either displayed in an alert or written to the page
 
 
+<img width="834" alt="Screen Shot 2022-10-10 at 8 26 04 PM" src="https://user-images.githubusercontent.com/87034052/194990271-436f9329-367d-4d4f-8c45-831344866001.png">
+
+
+<img width="830" alt="Screen Shot 2022-10-10 at 8 26 54 PM" src="https://user-images.githubusercontent.com/87034052/194990366-33ded9c3-965e-4722-bc80-9ad6ab272905.png">
 
 
 
-
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
