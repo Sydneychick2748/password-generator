@@ -38,7 +38,7 @@ If the password dose not meet the crteria above then there will be an alert tell
 
 Then you will be  presented with a series of prompts for password criteria, then you select which criteria you would like to  include in the password.
 
-When you are  asked for lowercase types to include in the password then you can ckick the ok button if you want lowercase  or cancel if you do not lowercase 
+When you are  asked for lowercase types to include in the password then you can click the "ok" button or if you do not lowercase then clcik the "cancel" button
 
 <img width="815" alt="Screen Shot 2022-10-10 at 8 20 24 PM" src="https://user-images.githubusercontent.com/87034052/194989604-142553ce-c6c7-4105-ae2f-78d3c19ff867.png">
 not to include lowercase,
@@ -48,7 +48,8 @@ not to include lowercase,
 
 
 
-When you are  asked for uppercase types to include in the password then you can ckick the ok button if you want uppercase or cancel if you do not uppercase. 
+
+When you are  asked for uppercase types to include in the password then you can click the "ok" button or if you do not uppercase then clcik the "cancel" button
 
 
 
@@ -57,7 +58,8 @@ When you are  asked for uppercase types to include in the password then you can 
 
 
 
-When you are  asked for numbers types to include in the password then you can ckick the ok button if you want numbers or cancel if you do not numbers. 
+
+When you are  asked for numbers types to include in the password then you can click the "ok" button or if you do not numbers then clcik the "cancel" button
 
 <img width="766" alt="Screen Shot 2022-10-10 at 8 21 55 PM" src="https://user-images.githubusercontent.com/87034052/194989785-23ee216d-7bb1-422b-bdec-8a02e6cb83b1.png">
 
@@ -67,7 +69,8 @@ When you are  asked for numbers types to include in the password then you can ck
 
 
 
-When you are  asked for special Charaters(symbols) types to include in the password then you can ckick the ok button if you want special Charaters(symbols) or cancel if you do not special Charaters(symbols). 
+
+When you are  asked for special Charaters to include in the password then you can click the "ok" button or if you do not special Charaters then clcik the "cancel" button.
 
 <img width="770" alt="Screen Shot 2022-10-10 at 8 21 35 PM" src="https://user-images.githubusercontent.com/87034052/194989748-3109318c-03c4-409d-9fb9-3e243d81dc1c.png">
 
