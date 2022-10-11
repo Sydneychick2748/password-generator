@@ -63,14 +63,14 @@ function writePassword() {
 
   while (validEntry === false) {
     var length = window.prompt(
-      "Enter a number from 8 to 128 for password length."
+      "Enter a number from 8 to 128 for Password length."
     );
     if (length < 8 || length > 128) {
       validEntry = false;
       alert(
         "Your password is not between 8 characters and 128 characters. Please try again."
       );
-      length= window.prompt( "Enter a number from 8 to 128 for password length.");
+      length= window.prompt( "Enter a number from 8 to 128 for Password length.");
      } else {
       validEntry = true;
      }
@@ -80,25 +80,25 @@ function writePassword() {
     console.log(length);
   }
 // while(allSymbols === false){
-  var lowercases = window.confirm("Would you like to use lowercase letters?");
+  var lowercases = window.confirm("Would you like to use Lowercase Letters?");
   if (lowercases) {
     lowercases += key_strings.lowercase;
     console.log(password, "P2")
   }
   console.log(lowercases);
-  var uppercases = window.confirm("Would you like to use uppercase letters?");
+  var uppercases = window.confirm("Would you like to use Uppercase Letters?");
   if (uppercases) {
     uppercases+= key_strings.uppercase;
     
   }
   console.log(uppercases);
-  var symbols = window.confirm("Would you like to use symbols?");
+  var symbols = window.confirm("Would you like to use Special Characters?");
   if (symbols) {
     symbols += key_strings.symbol;
   }
 
   console.log(symbols);
-  var numbers = window.confirm("Would you like to use numbers?");
+  var numbers = window.confirm("Would you like to use Numbers?");
   if (numbers) {
     numbers  += key_strings.number;
   }
@@ -111,10 +111,10 @@ function writePassword() {
     numbers === false &&
     symbols === false
   ) {
-     alert("You must chose at least one password criteria.");
+     alert("You must chose at least one Password criteria.");
    return writePassword();
   } else {
-    alert("your password is complete");
+    alert("You Have Succefully Created A Strong Password");
   }
 
   // }
