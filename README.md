@@ -2,10 +2,7 @@
 
 ## Description
 
-I want  to randomly generate a password that meets certain criteria so that  I can create a strong password that provides greater security using javascript.
-The goal of the project is to randomly generate a password that meets certain criteria. that will create a strong password that provides greater security.
-The projects goal is to picks passwords with lengths from 8 charaters to 128 and is randomiszed with uppercase, lowercase, numbers and symbols and will generate a strong passcode for you and you can make as many as you want .
-There are many ways to go about this in JavaScript, when working with some of the class everyone had different code and the way they went about the task that were asked . I was unsure how to begin because i had starter code that i did not completely understand and i did alot of reasarch . I saw a lot of password generater examples and i liked a particular one that did not use array at the beginning they used an object instead  and so i tryed to attempt to use a object which i almost gave up on because i could not get the code to work . But i finally did and i was happy that i did not have to give up my object, which i was really pleased with i felt like it was easier for me to start with rather than the array method 
+I want  to randomly generate a password that meets certain criteria so that  I can create a strong password that provides greater security using javascript.The goal of the project is to randomly generate a password that meets certain criteria. that will create a strong password that provides greater security.The projects goal is to picks passwords with lengths from 8 charaters to 128 and is randomiszed with uppercase, lowercase, numbers and symbols and will generate a strong passcode for you and you can make as many as you want .There are many ways to go about this in JavaScript, when working with some of the class everyone had different code and the way they went about the task that were asked . I was unsure how to begin because i had starter code that i did not completely understand and i did alot of reasarch . I saw a lot of password generater examples and i liked a particular one that did not use array at the beginning they used an object instead  and so i tryed to attempt to use a object which i almost gave up on because i could not get the code to work . But i finally did and i was happy that i did not have to give up my object, which i was really pleased with i felt like it was easier for me to start with rather than the array method 
  
 ## Table of Contents 
 
@@ -51,6 +48,7 @@ not to include lowercase,
 
 When you are  asked for uppercase types to include in the password then you can click the "ok" button or if you do not uppercase then clcik the "cancel" button
 
+<img width="789" alt="Screen Shot 2022-10-11 at 11 44 06 AM" src="https://user-images.githubusercontent.com/87034052/195173718-98717dde-9bc4-4a3d-be70-615773a874f6.png">
 
 
 
@@ -82,7 +80,7 @@ When you are  asked for special Charaters to include in the password then you ca
 
 When all prompts are answered then a promt will tell you that you have succefully created a strong password
 
-<img width="649" alt="Screen Shot 2022-10-10 at 8 22 48 PM" src="https://user-images.githubusercontent.com/87034052/194989908-5f4efe8b-6f85-4845-81ba-bbbea5729d48.png">
+<img width="801" alt="Screen Shot 2022-10-11 at 11 44 54 AM" src="https://user-images.githubusercontent.com/87034052/195173899-d20a9e05-3409-456a-a67b-7924a3c491e0.png">
 
 
 
