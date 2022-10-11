@@ -114,7 +114,7 @@ function writePassword() {
      alert("You must chose at least one Password criteria.");
    return writePassword();
   } else {
-    alert("You Have Succefully Created A Strong Password");
+    alert("You Have Successfully Created A Strong Password");
   }
 
   // }
