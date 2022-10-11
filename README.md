@@ -6,11 +6,12 @@ I want  to randomly generate a password that meets certain criteria so that  I c
  
 ## Table of Contents 
 
-
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Support](#support)
 - [License](#license)
+- [Features](#features)
 
 ## Installation
 
@@ -143,23 +144,26 @@ If you want a new password and start again , then you can click the "reset butto
 
 
 
-## Credits
+
+
+## Support
+
+if you want support or questions on the page you can contact me at anabennett77@gmail.com
+
 
 
 ## License
 
+please see the github for the License information at 
 
-## Badges
+
+
 
 ## Features
 
 If your project has a lot of features, list them here.
 
-## How to Contribute
 
 
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 
