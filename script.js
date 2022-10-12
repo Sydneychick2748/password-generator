@@ -47,9 +47,6 @@ function writePassword() {
       alert(
         "Your password is not between 8 characters and 128 characters. Please try again."
       );
-      // length = window.prompt(
-      //   "Enter a number from 8 to 128 for Password length."
-      // );
     } else  {
       validEntry = true;
     }
