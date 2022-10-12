@@ -56,7 +56,7 @@ If the password does not meet the criteria above, there will be an alert telling
 
 Then you will be presented with a series of prompts for password criteria, and then you will select which criteria you would like to include in the password.
 
-When you are asked for lowercase types to include in the password, you can click the "ok" button, or if you do not use lowercase, click the "cancel" button.
+When you are asked for lowercase letters to include in the password, you can click the "ok" button, or if you do want any lowercase letters in your password, click the "cancel" button.
 
 
 
@@ -69,7 +69,7 @@ not to include lowercase,
 
 
 
-When you are asked for uppercase types to include in the password, you can click the "ok" button or if you do not use uppercase, click the "cancel" button.
+When you are asked for uppercase letters to include in the password, you can click the "ok" button or if you do not want any uppercase letters in your password, click the "cancel" button.
 
 
 
@@ -82,7 +82,7 @@ When you are asked for uppercase types to include in the password, you can click
 
 
 
-When you are asked for numbers types to include in the password, then you can click the "ok" button or if you do not have numbers, then click the "cancel" button
+When you are asked for numbers  to include in the password, then you can click the "ok" button or if you do not want any numbers in your password, then click the "cancel" button
 
 
 
@@ -95,7 +95,7 @@ When you are asked for numbers types to include in the password, then you can cl
 
 
 
-When you are asked for special Characters to include in the password, you can click the "ok" button or if you do not have special Characters, then click the "cancel" button.
+When you are asked for special Characters to include in the password, you can click the "ok" button or if you do not want any  special Characters in your password, then click the "cancel" button.
 
 
 
