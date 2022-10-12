@@ -61,7 +61,7 @@ When you are asked for lowercase letters to include in the password, you can cli
 
 
 <img width="815" alt="Screen Shot 2022-10-10 at 8 20 24 PM" src="https://user-images.githubusercontent.com/87034052/194989604-142553ce-c6c7-4105-ae2f-78d3c19ff867.png">
-not to include lowercase,
+
 
 
 
