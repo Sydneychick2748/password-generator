@@ -1,66 +1,47 @@
-// AS AN employee with access to sensitive data
-// I WANT to randomly generate a password that meets certain criteria
-// SO THAT I can create a strong password that provides greater security
-// ```
 
-// ## Acceptance Criteria
-
-// ```
-// GIVEN I need a new, secure password
-// WHEN I click the button to generate a password
-// THEN I am presented with a series of prompts for password criteria
-// WHEN prompted for password criteria
-// THEN I select which criteria to include in the password
-// WHEN prompted for the length of the password
-// THEN I choose a length of at least 8 characters and no more than 128 characters
-// WHEN asked for character types to include in the password
-// THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-// WHEN I answer each prompt
-// THEN my input should be validated and at least one character type should be selected
-// WHEN all prompts are answered
-// THEN a password is generated that matches the selected criteria
-// WHEN the password is generated
-// THEN the password is either displayed in an alert or written to the page
-
+// this are the querySelectors that connects the variable to the Element in html 
 var generateBtn = document.querySelector("#generate");
 var password = document.querySelector("#password");
 var resetBtn = document.querySelector("#reset")
-console.log(password, "p1")
-// variables for all upper and lowercase letters, numbers, and characters)
+
+
+// object  to store all possible characters  for all upper and lowercase letters, numbers, and characters)
 const key_strings = {
   lowercase: "abcdefghijklmnopqrstuvwxyz",
   uppercase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   number: "0123456789",
   symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~",
-  // randomString : "",
-  // optionsVariable:""
 };
+
+// these are the variable that will store the data needed to create the password 
 var randomString = "";
 var optionsVariable = "";
 var validEntry = false;
 var validNumber = false;
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
- resetBtn.addEventListener("click", resetPassword)
 
+//first part is the variable we are choosing, chained to a method that takes in two arguments - one for the event listener, and one for the function that should run when the event happens
+//event listeners
+generateBtn.addEventListener("click", writePassword);
+resetBtn.addEventListener("click", resetPassword)
+
+
+ //functions to run when event occurs
 function resetPassword() {
   password.value = "";
-   randomString = "";
-   validEntry = false;
+  randomString = "";
+  validEntry = false;
 }
 
-// Write a function that generates a random password in the "text area" box
+// this is the  function that generates a random password 
 function writePassword() {
   //reset the old value when the user clicks
   password.value = "";
-   randomString = "";
-   optionsVariable = "";
-   validEntry = false;
-   var allSymbols = false;
-  // Prevent the screen from refreshing when whe button is clicked
-  //  event.preventDefault();
+  randomString = "";
+  optionsVariable = "";
+  validEntry = false;
 
+// this gives the length of the password from the user and tests  to make sure its the right length using a while loop and ternary operators
   while (validEntry === false) {
     var length = window.prompt(
       "Enter a number from 8 to 128 for Password length."
@@ -71,56 +52,54 @@ function writePassword() {
         "Your password is not between 8 characters and 128 characters. Please try again."
       );
       length= window.prompt( "Enter a number from 8 to 128 for Password length.");
-     } else {
+    } else {
       validEntry = true;
-     }
-    //  } else {
-    //   validEntry = false;
-    //  }
-    console.log(length);
+    }
+    
   }
-// while(allSymbols === false){
+
+
+// this gives the confirm box and then sets the variable to a ternary and  adds the object to the variable 
   var lowercases = window.confirm("Would you like to use Lowercase Letters?");
   if (lowercases) {
-    lowercases += key_strings.lowercase;
-    console.log(password, "P2")
+  lowercases = key_strings.lowercase;
+    
   }
   console.log(lowercases);
   var uppercases = window.confirm("Would you like to use Uppercase Letters?");
   if (uppercases) {
-    uppercases+= key_strings.uppercase;
+  uppercases= key_strings.uppercase;
     
   }
   console.log(uppercases);
   var symbols = window.confirm("Would you like to use Special Characters?");
   if (symbols) {
-    symbols += key_strings.symbol;
+  symbols = key_strings.symbol;
   }
 
   console.log(symbols);
   var numbers = window.confirm("Would you like to use Numbers?");
   if (numbers) {
-    numbers  += key_strings.number;
+  numbers  = key_strings.number;
   }
-  console.log(numbers);
+  
 
-  // while(allSymbols === false && test===true){
+  // this runs a ternary to run the criteria for the alert if the conditions have a value other than false then the function is called and run again 
   if (
     lowercases === false &&
     uppercases === false &&
     numbers === false &&
     symbols === false
   ) {
-     alert("You must chose at least one Password criteria.");
-   return writePassword();
+    alert("You must chose at least one Password criteria.");
+  return writePassword();
   } else {
     alert("You Have Successfully Created A Strong Password");
   }
 
-  // }
-  //------------------------------ i need something here that will loop them back to the options
-
-    if (lowercases) {
+  
+//if the variables in the conditional have a value other than false, they will be concatenated with the optionsVariable
+  if (lowercases) {
       optionsVariable += key_strings.lowercase;
   }
 
@@ -136,17 +115,17 @@ function writePassword() {
       optionsVariable += key_strings.symbol;
   }
 
-  // Generates a random password based on the criteria that have been selected
-  // password.value === "";
+  // Generates a random password based on the criteria that have been selected using math. random 
+  
   
   for (var i = 0; i < length; i++) {
-   randomString += optionsVariable.charAt(
-      Math.floor(Math.random() * optionsVariable.length)
+  randomString += optionsVariable.charAt(
+    Math.floor(Math.random() * optionsVariable.length)
     );
-    console.log(randomString, "randostring")
-    password.value = randomString;
+
+  password.value = randomString;
   }
   
-  console.log(password, "value");
+
 }
 
